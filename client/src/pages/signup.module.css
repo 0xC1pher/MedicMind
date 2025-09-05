@@ -1,0 +1,23 @@
+/* Signup.css */
+
+/* Apply styles to the image container */
+.image-container {
+    position: absolute;
+    right: 50px; /* Move the image 100px towards the left */
+    top: 100px;
+    bottom: 0;
+    width: 50%; 
+    height:auto;/* This keeps the 1/3 width (33%) */
+    overflow: hidden;
+  }
+  
+  /* Style for the image */
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; /* Matches the rounded corners */
+    object-fit: cover;
+    object-position:center;
+  }
+
+  
